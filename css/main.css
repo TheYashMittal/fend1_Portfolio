@@ -31,6 +31,10 @@ a:hover [class*="zocial-"]:before {
   margin-top: 15px;
 }
 
+.headline{
+  text-align: right;
+}
+
 header h1, header h4{
   font-weight: 200;
 }
@@ -43,7 +47,7 @@ header h3{
   font-size: 20px;
 }
 
-hr{
+horizontal_rule{
   height: 2px;
 }
 
@@ -57,12 +61,14 @@ footer{
   margin-bottom: 0;
 }
 
-footer ul{
+/*footer ul*/
+.social_list{
   text-align: center;
   padding: 0;
 }
 
-footer ul li{
+/*footer ul li*/
+.list_item{
   list-style: none;
   display: inline-flex;
   margin: 15px;
